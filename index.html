@@ -8,7 +8,7 @@
     <title>Pehuén Aventuras 4x4</title>
     <link rel="stylesheet" href="styles.css" id="stylePage">
     <link rel="stylesheet" href="animaciones.css" id="animaciones">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <script src="script-responsive.js"></script>
 </head>
 <body>
@@ -41,7 +41,8 @@
         <!-- Sobre Nosotros -->
         <section id="sobre-nosotros" class="sobre-nosotros">
             <h2>Sobre Nosotros</h2>
-            <p>Somos un equipo apasionado por la aventura y los recorridos todo terreno. Únete a nosotros para explorar los paisajes más impresionantes.</p>
+            <p class="Anosotros" id="nosotros">Somos un equipo apasionado por la aventura y los recorridos todo terreno. Únete a nosotros para explorar los paisajes más impresionantes.</p>
+            <p class="Aellos" id="ellos"></p>
         </section>
 
         <!-- Galería -->
@@ -51,6 +52,12 @@
                 <img src="./Imagenes/Galeria/1.webp" alt="Aventura 1" class="imagen-galeria">
                 <img src="./Imagenes/Galeria/2.webp" alt="Aventura 2" class="imagen-galeria">
                 <img src="./Imagenes/Galeria/3.webp" alt="Aventura 3" class="imagen-galeria">
+                <img src="./Imagenes/Galeria/4.webp" alt="Aventura 4" class="imagen-galeria">
+                <img src="./Imagenes/Galeria/4.webp" alt="Aventura 4" class="imagen-galeria">
+                <img src="./Imagenes/Galeria/4.webp" alt="Aventura 4" class="imagen-galeria">
+                <img src="./Imagenes/Galeria/4.webp" alt="Aventura 4" class="imagen-galeria">
+                <img src="./Imagenes/Galeria/4.webp" alt="Aventura 4" class="imagen-galeria">
+                <img src="./Imagenes/Galeria/4.webp" alt="Aventura 4" class="imagen-galeria">
                 <img src="./Imagenes/Galeria/4.webp" alt="Aventura 4" class="imagen-galeria">
             </div>
             <div id="lightbox" class="lightbox">
@@ -74,7 +81,14 @@
     </main>
     <!-- Pie de Página -->
     <footer>
-        <p>&copy; 2025 Pehuén Aventuras 4x4. Todos los derechos reservados.</p>
+        <!-- <p>&copy; 2025 Pehuén Aventuras 4x4. Todos los derechos reservados.</p> -->
+        <!-- <p id="footerText">&copy; 2025 Pehuén Aventuras 4x4.</p> -->
+        <p id="footerText">&copy;</p>
+        <p>Síguenos en:</p>
+        <div class="ImgSocial" id="AllImgSocial" >
+            <a href="https://www.facebook.com/pehuenaventuras" target="_blank"><img src="Imagenes/facebook.svg" alt="Facebook" class="ImgSocial" id="Facebook" onmouseover="Titulos()"></a>
+            <a href="https://www.instagram.com/pehuen_aventuras4x4/" target="_blank"><img src="Imagenes/instagram.webp" alt="Instagram" class="ImgSocial" id="Instagram" onmouseover="Titulos()"></a>
+        </div>
     </footer>
 </body>
 </html>
